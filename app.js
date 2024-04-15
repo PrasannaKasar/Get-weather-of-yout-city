@@ -89,7 +89,7 @@ btn.addEventListener("click", async (evt) => {
 })
 
 async function setCordinates() {
-    let response = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${city_name}&limit=1&appid=b5b6933b71c6021a7637e4abc8a1a5da`);
+    let response = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${city_name}&limit=1&appid=b5b6933b71c6021a7637e4abc8a1a5da`);
     let city_Cordi = await response.json();
     console.log(city_Cordi);
     lattitude = city_Cordi[0]["lat"];   //the city_Cordi is of type array. bcoz it generated code like:-
