@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Get Weather of your city!</h1>
+    <form>
+        <input type="text" placeholder="Enter your city name" class="city" id = "input-box" value="">
+        <button class="btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <div class="result-box">
+            <ul id="suggestions">
+                <!-- <li>Mumbai</li>
+                <li>New York</li>
+                <li>London</li>
+                <li>Delhi</li> -->
+            </ul>
+        </div>
+        <p class="msg"></p>
+    </form>
+    <script src="app.js"></script>
+    <script src="city-list.js"></script>
+</body>
+</html>

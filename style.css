@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-top: 15vh;
+    text-align: center;
+    position: relative;
+}
+
+.msg {
+    margin-top: 20vh;
+    text-align: center;
+    position: fixed;
+    top: 20vh; 
+    left: 50%; 
+    transform: translateX(-50%);
+    z-index: -1; 
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    margin: 0 auto; 
+    width: fit-content;
+    
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+li {
+    width: 150px;
+    background-color: lightcyan;
+    padding-bottom: 3px;
+    border: 0.1px solid rgb(187, 226, 250);
+    margin-right: 50px;
+}
+
+.selected {
+    background-color: grey;
+}
